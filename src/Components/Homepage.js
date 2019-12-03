@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Navbar from './Navbar'
 
 export default class Homepage extends Component{
     constructor(props){
@@ -11,7 +12,8 @@ export default class Homepage extends Component{
     render(){
         return(
             <React.Fragment>
-                Hello World Homepage
+                <div id="top-black-banner">FREE US SHIPPING AND RETURN </div>
+                <Navbar />
             </React.Fragment>
         )
     }
