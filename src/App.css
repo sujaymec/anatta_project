@@ -13,6 +13,8 @@
   border-bottom:1px solid #f1f1f1;
   min-height: 90px;
 }
+div#hamburger-menu{padding: 25px 0px;}
+div.hamburger-menu-icon{width: 35px;height: 5px;background-color: black;margin: 6px 0;}
 #navbar ul, div#logo{width:30%}
 #navbar ul li{list-style: none; display:inline;line-height: 90px; cursor: pointer; text-transform: uppercase; letter-spacing: 2px;}
 ul#right-nav{display: flex; flex-direction: row-reverse;}
@@ -28,7 +30,10 @@ div#logo{
 }
 
 
+@media (min-width : 1025px){
+  .hide-on-desktop{display:none}
+}
 
-@media (max-width : 1024){
+@media (max-width : 1024px){
 
 }

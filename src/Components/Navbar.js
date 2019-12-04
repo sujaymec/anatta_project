@@ -8,6 +8,11 @@ export default class Navbar extends Component{
         return(
             <div id="navbar">
                 <div className="container-m50 display-flex">
+                    <div id="hamburger-menu" className="hide-on-desktop">
+                        <div className="hamburger-menu-icon"></div>
+                        <div className="hamburger-menu-icon"></div>
+                        <div className="hamburger-menu-icon"></div>
+                    </div>
                     <ul id="left-nav">
                         <li>Men</li>
                         <li>Women</li>
