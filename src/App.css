@@ -12,6 +12,7 @@
 #navbar{
   border-bottom:1px solid #f1f1f1;
   min-height: 90px;
+  margin-bottom: 50px;
 }
 div#hamburger-menu{padding: 25px 0px;}
 div.hamburger-menu-icon{width: 35px;height: 5px;background-color: black;margin: 6px 0;}
