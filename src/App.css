@@ -19,6 +19,20 @@
 .p-15{padding: 15px;}
 .fs-12{font-size: 12px;}
 
+/* colors */
+
+.color.white{background-color: white}
+.color.navy{background-color: navy}
+.color.black{background-color: black}
+.color.red{background-color: red}
+.color.yellow{background-color: yellow}
+.color.darkgrey{background-color: darkgrey}
+.color.green{background-color: green}
+.color.pink{background-color: pink}
+.color.skyblue{background-color: skyblue}
+.color.brown{background-color: brown}
+.color.brown{background-color: brown}
+
 #top-black-banner{text-align: center; color:white;background:#000;font-size: 12px;line-height: 38px;}
 #navbar{
   border-bottom:1px solid #f1f1f1;
@@ -62,6 +76,7 @@ span.color{
   width: 25px;
   border-radius:50%;
   background-color:#000;
+  border:1px solid #c8c8c8;
 }
 
 @media (min-width : 1025px){

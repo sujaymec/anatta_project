@@ -24,16 +24,16 @@ export default function ProductOptions(){
                 <div id="select-color" className="w-100 p-15">
                     <p className="mb-15 fs-12">SELECT COLOR</p>
                     <div id="colors" className="display-flex w-100 flex-wrap">
-                        <span className="color"></span>
-                        <span className="color"></span>
-                        <span className="color"></span>
-                        <span className="color"></span>
-                        <span className="color"></span>
-                        <span className="color"></span>
-                        <span className="color"></span>
-                        <span className="color"></span>
-                        <span className="color"></span>
-                        <span className="color"></span>
+                        <span className="color white"></span>
+                        <span className="color navy"></span>
+                        <span className="color black"></span>
+                        <span className="color red"></span>
+                        <span className="color yellow"></span>
+                        <span className="color darkgrey"></span>
+                        <span className="color green"></span>
+                        <span className="color pink"></span>
+                        <span className="color skyblue"></span>
+                        <span className="color brown"></span>
                         <span className="color"></span>
                     </div>
                 </div>
