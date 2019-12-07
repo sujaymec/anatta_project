@@ -685,3 +685,14 @@ input.app-interval-input {
 .app-checkboxes li {
 	display: block
 }
+
+/* Custom styles */
+
+#slider-container{width: 66%;}
+
+
+@media (max-width : 1024px){
+    #product-details{display: block;}
+    #product-options{width: 100%;}
+    #slider-container{width: 100%; margin-top:50px}
+}

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Navbar from './Navbar'
+import Footer from './Footer/Footer'
 import ProductDetails from './ProductDetails/ProductDetails'
 
 export default class Homepage extends Component{
@@ -16,6 +17,7 @@ export default class Homepage extends Component{
                 <div id="top-black-banner">FREE US SHIPPING AND RETURN </div>
                 <Navbar />
                 <ProductDetails />
+                <Footer />
             </React.Fragment>
         )
     }

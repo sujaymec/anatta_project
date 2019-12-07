@@ -107,6 +107,18 @@ span.size-box.active{
   cursor: pointer; 
 }
 
+/* Features Strip */
+
+#features-strip{
+  display: flex;
+}
+#features-strip span{
+  display: block;
+  line-height: 40px;
+  text-align: center;
+  
+}
+
 @media (min-width : 1025px){
   .hide-on-desktop{display:none}
   #product-options{width: 30%;}
