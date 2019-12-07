@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import ProductOptions from './ProductOptions';
+import ProductOptions from './ProductOptions'
+import Slider from '../ImageGallery/Slider';
 
 export default class ProductDetails extends Component{
     constructor(props){
@@ -13,6 +14,7 @@ export default class ProductDetails extends Component{
         return(
             <div id="product-details" className="display-flex container-m50">
                 <ProductOptions />
+                <Slider />
             </div>
         )
     }
