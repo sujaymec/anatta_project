@@ -38,7 +38,28 @@ export default function ProductOptions(){
                     </div>
                 </div>
 
+                <div id="select-size" className="w-100 p-15">
+                    <p className="mb-15 fs-12">SELECT SIZE</p>
+                    <div id="sizes" className="display-flex w-100 flex-wrap">
+                        <span className="size-box active">5</span>
+                        <span className="size-box">5.5</span>
+                        <span className="size-box active">6</span>
+                        <span className="size-box">6.5</span>
+                        <span className="size-box">7</span>
+                        <span className="size-box active">7.5</span>
+                        <span className="size-box active">8</span>
+                        <span className="size-box">8.5</span>
+                        <span className="size-box">9</span>
+                        <span className="size-box active">9.5</span>
+                        <span className="size-box">10</span>
+                        <span className="size-box">10.5</span>
+                        <span className="size-box">11</span>
+                    </div>
+                </div>
+
+
             </div>
+                <button id="add-to-bag">ADD TO BAG</button>
         </div>
     )
 }
