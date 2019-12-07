@@ -9,7 +9,15 @@
 
 .container-m50{margin: 0 50px;}
 .display-flex{display: flex; justify-content: space-between;}
+.flex-wrap{flex-wrap: wrap;}
+.text-align-center{text-align: center;}
 .text-align-right{text-align: right;}
+.w-50{width: 50%;}
+.w-100{width: 100%;}
+.mb-15{margin-bottom:15px}
+.mb-30{margin-bottom:30px}
+.p-15{padding: 15px;}
+.fs-12{font-size: 12px;}
 
 #top-black-banner{text-align: center; color:white;background:#000;font-size: 12px;line-height: 38px;}
 #navbar{
@@ -36,13 +44,29 @@ div#logo{
 /* Product Details */
 
 #product-options{min-width: 30%;}
+#product-info{margin-bottom: 30px;}
 #product-name{font-size: 24px; font-weight: 400;margin-bottom:10px}
 #product-type{font-size: 12px;}
 #product-price{font-size: 16px; line-height: 32px;}
 #product-reviews{font-size: 12px; line-height: 34px;}
+#product-select{border: 1px solid #c8c8c8}
+
+.gender-tab{background:#f1f1f1; line-height: 40px;display:inline-block; width: calc(50% - 0.5px);border-bottom: 1px solid #c8c8c8;cursor: pointer;}
+.gender-tab.active{background:#fff; color: #7dc242;border-bottom: 1px solid #fff; z-index:2}
+.tab-divider{width: 1px; background:#c8c8c8;border-bottom: 1px solid #c8c8c8;display: inline-block;height: 40px;}
+
+#colors{justify-content: space-between;}
+span.color{
+  display:inline-block;
+  height: 25px;
+  width: 25px;
+  border-radius:50%;
+  background-color:#000;
+}
 
 @media (min-width : 1025px){
   .hide-on-desktop{display:none}
+  #product-options{width: 30%;}
 }
 
 @media (max-width : 1024px){

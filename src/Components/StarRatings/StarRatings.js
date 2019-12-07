@@ -5,7 +5,7 @@ export default class RatingStars extends Component {
     constructor(props){
         super(props);
         this.state={
-            rating: 3
+            rating: 4
         }
     }
 
@@ -20,11 +20,11 @@ export default class RatingStars extends Component {
         return (
           <StarRatings
             rating={this.state.rating}
-            starRatedColor="gold"
+            starRatedColor="#7dc242"
             starEmptyColor="grey"
-            starHoverColor="gold"
+            starHoverColor="#7dc242"
             starDimension="15px"
-            starSpacing="3px"
+            starSpacing="1px"
             numberOfStars={5}
             name='rating'
           />
