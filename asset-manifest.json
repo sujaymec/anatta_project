@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/anatta_project/static/css/main.7693454c.chunk.css",
+    "main.js": "/anatta_project/static/js/main.285e0128.chunk.js",
+    "main.js.map": "/anatta_project/static/js/main.285e0128.chunk.js.map",
+    "runtime-main.js": "/anatta_project/static/js/runtime-main.e0c6cbb6.js",
+    "runtime-main.js.map": "/anatta_project/static/js/runtime-main.e0c6cbb6.js.map",
+    "static/js/2.73300dce.chunk.js": "/anatta_project/static/js/2.73300dce.chunk.js",
+    "static/js/2.73300dce.chunk.js.map": "/anatta_project/static/js/2.73300dce.chunk.js.map",
+    "index.html": "/anatta_project/index.html",
+    "precache-manifest.aa4e321f31d1f059b5b68b3daa0965e6.js": "/anatta_project/precache-manifest.aa4e321f31d1f059b5b68b3daa0965e6.js",
+    "service-worker.js": "/anatta_project/service-worker.js",
+    "static/css/main.7693454c.chunk.css.map": "/anatta_project/static/css/main.7693454c.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0c6cbb6.js",
+    "static/js/2.73300dce.chunk.js",
+    "static/css/main.7693454c.chunk.css",
+    "static/js/main.285e0128.chunk.js"
+  ]
+}
