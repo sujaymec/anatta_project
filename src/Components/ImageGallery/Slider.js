@@ -26,6 +26,10 @@ export default class Slider extends Component {
         original: 'https://picsum.photos/id/1019/1000/600/',
         thumbnail: 'https://picsum.photos/id/1019/250/150/',
       },
+      {
+        original: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80',
+        thumbnail: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80',
+      }
     ];
  
     return (
