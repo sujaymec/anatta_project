@@ -18,6 +18,8 @@
 .w-100{width: 100%;}
 .mb-15{margin-bottom:15px}
 .mb-30{margin-bottom:30px}
+.mt-15{margin-top:15px}
+.mt-30{margin-top:30px}
 .p-15{padding: 15px;}
 .fs-12{font-size: 12px;}
 
@@ -146,12 +148,14 @@ span.size-box.active{
   padding: 50px 20px;
 }
 
-ul.footer-list-block{color:#fff; display: block;width:20%}
+ul.footer-list-block{color:#fff; display: block;min-width:15%}
 ul.footer-list-block li{display: block;font-size: 12px;line-height: 24px; cursor: pointer;}
 ul.footer-list-block li:first-child{text-transform: uppercase;line-height: 32px;}
+ul.footer-list-block li input[type="text"]{background: #000;border: 0px;border-bottom: 2px solid #fff;line-height: 30px;}
 
 #copyright-text{color:#3a3a3a;font-size: 12px; line-height: 48px;}
 #copyright-text a{color:#3a3a3a;}
+#join-us-btn{background: #000;border: 2px solid #fff;color: #fff;line-height: 30px;padding: 0px 10px;margin-left: 10px;font-size: 12px;}
 
 @media (min-width : 1025px){
   .hide-on-desktop{display:none !important}
