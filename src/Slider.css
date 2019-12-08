@@ -706,5 +706,7 @@ input.app-interval-input {
 .image-gallery-fullscreen-button:hover::before, .image-gallery-left-nav:hover::before, .image-gallery-play-button:hover::before, .image-gallery-right-nav:hover::before{color:#333}
 
 @media (max-width : 1024px){
-    #slider-container{width: 100%; margin-top:50px}
+	#slider-container{width: 100%; margin-top:50px}
+	.image-gallery-left-nav, .image-gallery-right-nav{bottom:auto; top:50%}
+	.image-gallery-thumbnail .image-gallery-thumbnail-inner{max-height: 45px;}
 }

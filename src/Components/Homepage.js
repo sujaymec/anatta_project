@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Navbar from './Navbar'
 import Footer from './Footer/Footer'
 import ProductDetails from './ProductDetails/ProductDetails'
+import FeatureStrip from './FeatureStrip';
 
 export default class Homepage extends Component{
     constructor(props){
@@ -17,6 +18,7 @@ export default class Homepage extends Component{
                 <div id="top-black-banner">FREE US SHIPPING AND RETURN </div>
                 <Navbar />
                 <ProductDetails />
+                <FeatureStrip />
                 <Footer />
             </React.Fragment>
         )
