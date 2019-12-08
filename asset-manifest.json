@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/anatta_project/static/css/main.d4fadaeb.chunk.css",
-    "main.js": "/anatta_project/static/js/main.4350b5d8.chunk.js",
-    "main.js.map": "/anatta_project/static/js/main.4350b5d8.chunk.js.map",
+    "main.css": "/anatta_project/static/css/main.369d1207.chunk.css",
+    "main.js": "/anatta_project/static/js/main.7461c2d9.chunk.js",
+    "main.js.map": "/anatta_project/static/js/main.7461c2d9.chunk.js.map",
     "runtime-main.js": "/anatta_project/static/js/runtime-main.e0c6cbb6.js",
     "runtime-main.js.map": "/anatta_project/static/js/runtime-main.e0c6cbb6.js.map",
     "static/js/2.73300dce.chunk.js": "/anatta_project/static/js/2.73300dce.chunk.js",
     "static/js/2.73300dce.chunk.js.map": "/anatta_project/static/js/2.73300dce.chunk.js.map",
     "index.html": "/anatta_project/index.html",
-    "precache-manifest.eb7a2d9545d955e2c5633f6cae8c4695.js": "/anatta_project/precache-manifest.eb7a2d9545d955e2c5633f6cae8c4695.js",
+    "precache-manifest.2e9d7c061595e5b361c20d588600fe2d.js": "/anatta_project/precache-manifest.2e9d7c061595e5b361c20d588600fe2d.js",
     "service-worker.js": "/anatta_project/service-worker.js",
-    "static/css/main.d4fadaeb.chunk.css.map": "/anatta_project/static/css/main.d4fadaeb.chunk.css.map"
+    "static/css/main.369d1207.chunk.css.map": "/anatta_project/static/css/main.369d1207.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.e0c6cbb6.js",
     "static/js/2.73300dce.chunk.js",
-    "static/css/main.d4fadaeb.chunk.css",
-    "static/js/main.4350b5d8.chunk.js"
+    "static/css/main.369d1207.chunk.css",
+    "static/js/main.7461c2d9.chunk.js"
   ]
 }
