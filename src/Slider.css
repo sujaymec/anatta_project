@@ -697,7 +697,7 @@ input.app-interval-input {
     border: 4px solid #7dc242;
 }
 
-.image-gallery-left-nav, .image-gallery-right-nav{top:auto; bottom:-225px}
+.image-gallery-left-nav, .image-gallery-right-nav{top:auto; bottom:-135px;padding: 5px 15px;}
 .image-gallery-fullscreen-button::before, .image-gallery-left-nav::before, .image-gallery-play-button::before, .image-gallery-right-nav::before{
     text-shadow: none; 
     color:#c8c8c8;

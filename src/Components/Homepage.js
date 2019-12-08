@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import Footer from './Footer/Footer'
 import ProductDetails from './ProductDetails/ProductDetails'
 import FeatureStrip from './FeatureStrip';
+import Recommended from './Carousel';
 
 export default class Homepage extends Component{
     constructor(props){
@@ -18,6 +19,7 @@ export default class Homepage extends Component{
                 <div id="top-black-banner">FREE US SHIPPING AND RETURN </div>
                 <Navbar />
                 <ProductDetails />
+                <Recommended />
                 <FeatureStrip />
                 <Footer />
             </React.Fragment>

@@ -113,6 +113,12 @@ span.size-box.active{
   cursor: pointer; 
 }
 
+
+/* Recommended Section */
+
+#recommended-section{background:#ccc;}
+
+
 /* Features Strip */
 
 #features-strip{
