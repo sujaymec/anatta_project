@@ -689,10 +689,10 @@ input.app-interval-input {
 /* Custom styles */
 
 #slider-container{width: 66%;}
-
+.image-gallery-thumbnail.active {
+    border: 4px solid #7dc242;
+}
 
 @media (max-width : 1024px){
-    #product-details{display: block;}
-    #product-options{width: 100%;}
     #slider-container{width: 100%; margin-top:50px}
 }

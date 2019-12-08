@@ -7,7 +7,7 @@ export default class Footer extends Component{
         return(
             <div>
                 <div id="features-strip">
-                    <span>Secure Payment</span>
+                    <span className="hide-on-mobile"><i class="fas fa-plane"></i>Secure Payment</span>
                     <span>Express Shipping</span>
                     <span>Free Returns</span>
                 </div>

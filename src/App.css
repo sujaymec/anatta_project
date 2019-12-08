@@ -1,3 +1,5 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
 *{
   margin: 0px;
   padding: 0px;
@@ -111,19 +113,37 @@ span.size-box.active{
 
 #features-strip{
   display: flex;
+  background-color: #fafafa;
+  justify-content: center;
+  margin-top:50px;
+  color: #737373;
 }
 #features-strip span{
   display: block;
-  line-height: 40px;
+  line-height: 60px;
   text-align: center;
-  
+  width:30%;
+  position: relative;
 }
+#features-strip span:nth-child(2)::before, #features-strip span:nth-child(2)::after{
+  content: '';
+  display: block;
+  height: 40px;
+  width: 1px;
+  background: #cecece;
+  position: absolute;
+  top: 10px;
+}
+#features-strip span:nth-child(2)::after{right: 0px;}
 
 @media (min-width : 1025px){
-  .hide-on-desktop{display:none}
+  .hide-on-desktop{display:none !important}
   #product-options{width: 30%;}
 }
 
 @media (max-width : 1024px){
+  .hide-on-mobile{display:none !important}
+  #product-details{display: block;}
   #product-options{width: 100%;}
+  #features-strip span:nth-child(2)::before{width: 0px;}
 }
