@@ -34,6 +34,14 @@ export default class Footer extends Component{
                         <li className="">Future</li>
                     </ul>
                 </div>
+
+                <div className="container-m50" style={{marginTop:"50px"}}>
+                    <hr style={{border: "1px solid #3a3a3a"}} />
+                    <p id="copyright-text" className="text-align-center">Copyright &copy; 2019 CARIUMA. All Rights Reserved. 
+                        <a href="#"> Terms of use</a> | <a href="#">Privacy Policy</a>
+                    </p>
+                </div>
+
             </div>
         )
     }

@@ -143,12 +143,15 @@ span.size-box.active{
 
 #footer{
   background:#000;
-  padding: 50px 10px;
+  padding: 50px 20px;
 }
 
 ul.footer-list-block{color:#fff; display: block;width:20%}
 ul.footer-list-block li{display: block;font-size: 12px;line-height: 24px; cursor: pointer;}
 ul.footer-list-block li:first-child{text-transform: uppercase;line-height: 32px;}
+
+#copyright-text{color:#3a3a3a;font-size: 12px; line-height: 48px;}
+#copyright-text a{color:#3a3a3a;}
 
 @media (min-width : 1025px){
   .hide-on-desktop{display:none !important}
