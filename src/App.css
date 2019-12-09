@@ -205,6 +205,19 @@ ul.footer-list-block li input[type="text"]{background: #000;border: 0px;border-b
 @media (max-width : 1024px){
   .hide-on-mobile{display:none !important}
   .invisible-on-mobile{visibility:hidden !important}
+
+  #navbar > div{position: relative;}
+  ul#left-nav{
+    position: absolute;
+    top: 96px;
+    background: #fff;
+    border: 1px solid #ccc;
+  }
+  ul#left-nav li{
+    display: block;
+    line-height: 60px;
+    padding-left: 30px;
+  }
   #product-details{display: block;}
   #product-options{width: 100%;}
   #features-strip span:nth-child(2)::before{width: 0px;}
