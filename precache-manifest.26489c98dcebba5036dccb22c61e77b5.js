@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "96d5a6550b59b79bda35808b64cc954a",
+    "revision": "ff89d18ff840fbefabafd2e15377b2f3",
     "url": "/anatta_project/index.html"
   },
   {
-    "revision": "7831c924de149906d6c7",
-    "url": "/anatta_project/static/css/main.081eb6c2.chunk.css"
+    "revision": "a4aaddbe925500537ae0",
+    "url": "/anatta_project/static/css/main.c5050307.chunk.css"
   },
   {
     "revision": "abe3360cc14e866c9812",
     "url": "/anatta_project/static/js/2.30ac3a4e.chunk.js"
   },
   {
-    "revision": "7831c924de149906d6c7",
+    "revision": "a4aaddbe925500537ae0",
     "url": "/anatta_project/static/js/main.a7ebcfb4.chunk.js"
   },
   {
