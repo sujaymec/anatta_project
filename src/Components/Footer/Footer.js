@@ -49,7 +49,7 @@ export default class Footer extends Component{
                             <button id="join-us-btn">JOIN US</button>
                         </li>
                         <li className="mt-30">
-                            <img src={facebookLogo} style={{marginTop:"25px"}} />
+                            <img src={facebookLogo} style={{marginTop:"25px"}} alt="" />
                         </li>
                     </ul>
                 </div>

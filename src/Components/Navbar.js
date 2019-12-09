@@ -20,10 +20,10 @@ export default class Navbar extends Component{
                     <div id="logo"></div>
                     <ul id="right-nav">
                         <li>
-                            <img src={shoppingBag} />
+                            <img src={shoppingBag} alt="" />
                         </li>
                         <li>
-                            <img src={profilePic} />
+                            <img src={profilePic} alt="" />
                         </li>
                         <li className="hide-on-mobile">
                             About
