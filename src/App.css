@@ -206,17 +206,20 @@ ul.footer-list-block li input[type="text"]{background: #000;border: 0px;border-b
   .hide-on-mobile{display:none !important}
   .invisible-on-mobile{visibility:hidden !important}
 
+  .container-m50{margin:0 25px}
+  ul#right-nav li{margin-left:15px;}
   #navbar > div{position: relative;}
   ul#left-nav{
     position: absolute;
     top: 96px;
     background: #fff;
     border: 1px solid #ccc;
+    width:140px;
   }
   ul#left-nav li{
     display: block;
     line-height: 60px;
-    padding-left: 0 30px;
+    padding: 0 30px;
   }
   #product-details{display: block;}
   #product-options{width: 100%;}
