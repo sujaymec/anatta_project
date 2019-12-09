@@ -216,7 +216,7 @@ ul.footer-list-block li input[type="text"]{background: #000;border: 0px;border-b
   ul#left-nav li{
     display: block;
     line-height: 60px;
-    padding-left: 30px;
+    padding-left: 0 30px;
   }
   #product-details{display: block;}
   #product-options{width: 100%;}
