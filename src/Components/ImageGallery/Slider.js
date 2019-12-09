@@ -1,6 +1,6 @@
-import React, {Component} from 'react'
-import ImageGallery from 'react-image-gallery'
-import facebookLogo from '../../Assets/images/facebook-logo.png'
+import React, {Component} from 'react';
+import ImageGallery from 'react-image-gallery';
+import axios from 'axios'
 
 import '../../Slider.css';
  
@@ -8,9 +8,44 @@ export default class Slider extends Component {
     constructor(props){
         super();
         this.state={
-            infinite: false
+            infinite: false,
+            imagesAquired: false,
+            imageArray: []
         }
     }
+
+  fetchImages(){
+    console.log('entered fetch images');
+    var self = this;
+
+    axios.get('https://anatta-demo-app.herokuapp.com/api/images')
+      .then(function (response) {
+        // handle success
+        console.log(response.data);
+        var imageArray = []
+        response.data.forEach(function(ele){
+          var obj = {};
+          console.log(ele.url);
+          obj.original = ele.url;
+          obj.thumbnail = ele.url;
+          imageArray.push(obj);
+        })
+        console.log(imageArray);
+        self.setState({
+          imageArray: imageArray
+        })
+      });
+      this.setState({
+        imagesAquired: true
+      })
+    }
+  
+  componentDidMount(){
+    if(!this.state.imagesAquired){
+      this.fetchImages()
+    }
+
+  }
  
   render() {
  
@@ -57,7 +92,7 @@ export default class Slider extends Component {
                 showGalleryFullscreenButton= {false}
                 showPlayButton= {false}
                 showGalleryPlayButton= {false}
-                items={images} 
+                items={this.state.imageArray} 
             />            
         </div>
 
