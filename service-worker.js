@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/anatta_project/precache-manifest.74d742d706c7e9a883b99adcd4e8ae88.js"
+  "/anatta_project/precache-manifest.7ab780896c2bf3033a8275dc3fe15edb.js"
 );
 
 self.addEventListener('message', (event) => {
