@@ -28,7 +28,7 @@ export default function ProductOptions(){
                         <span className="color navy"></span>
                         <span className="color black"></span>
                         <span className="color red"></span>
-                        <span className="color yellow"></span>
+                        <span className="color yellow active"></span>
                         <span className="color darkgrey"></span>
                         <span className="color green"></span>
                         <span className="color dual"></span>
@@ -45,7 +45,7 @@ export default function ProductOptions(){
                         <span className="size-box">5.5</span>
                         <span className="size-box active">6</span>
                         <span className="size-box">6.5</span>
-                        <span className="size-box">7</span>
+                        <span className="size-box selected">7</span>
                         <span className="size-box active">7.5</span>
                         <span className="size-box active">8</span>
                         <span className="size-box">8.5</span>

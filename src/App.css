@@ -43,7 +43,7 @@
   min-height: 90px;
   margin-bottom: 50px;
 }
-div#hamburger-menu{padding: 25px 0px;}
+div#hamburger-menu{padding: 25px 0px; width: 30%;}
 div.hamburger-menu-icon{width: 35px;height: 5px;background-color: black;margin: 6px 0;}
 #navbar ul, div#logo{width:30%}
 #navbar ul li{list-style: none; display:inline;line-height: 90px; cursor: pointer; text-transform: uppercase; letter-spacing: 2px;}
@@ -59,6 +59,7 @@ div#logo{
   background-size: contain;
   margin-top:20px;
 }
+#navbar ul li:hover{text-decoration:underline}
 
 /* Product Details */
 
@@ -86,6 +87,17 @@ span.color{
   cursor: pointer;
   position: relative;
 }
+span.color.active::after{
+  content: '';
+  display: block;
+  height: 31px;
+  width: 31px;
+  border: 3px solid #7dc242;
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  border-radius: 50%;
+}
 
 /* Size box */
 
@@ -97,9 +109,21 @@ span.size-box{
   line-height: 35px;
   margin: 8px;
   cursor: pointer;
+  position: relative;
 }
 span.size-box.active{
   background-color: #e9e9e9;
+}
+span.size-box.selected::before{
+  content: '';
+  display: block;
+  height: 43px;
+  width: 43px;
+  border: 3px solid #7dc242;
+  position: absolute;
+  top: -7px;
+  left: -7px;
+
 }
 
 #add-to-bag{
@@ -151,6 +175,7 @@ span.size-box.active{
   top: 10px;
 }
 #features-strip span:nth-child(2)::after{right: 0px;}
+.svg-inline--fa{margin-right: 10px;position: relative;top:1px}
 
 
 /* Footer */
@@ -172,11 +197,19 @@ ul.footer-list-block li input[type="text"]{background: #000;border: 0px;border-b
 @media (min-width : 1025px){
   .hide-on-desktop{display:none !important}
   #product-options{width: 30%;}
+  .image-gallery-thumbnails-wrapper{width:70% !important}
+  .image-gallery-left-nav{left:8% !important}
+  .image-gallery-right-nav{right:8% !important}
 }
 
 @media (max-width : 1024px){
   .hide-on-mobile{display:none !important}
+  .invisible-on-mobile{visibility:hidden !important}
   #product-details{display: block;}
   #product-options{width: 100%;}
   #features-strip span:nth-child(2)::before{width: 0px;}
+  .slide-div{flex-wrap:wrap}
+  .slide-div-content{width:49%;margin-bottom: 25px;}
+  #footer-inner{flex-direction: column-reverse;}
+  ul.footer-list-block{margin-bottom: 40px;}
 }

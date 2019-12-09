@@ -13,7 +13,7 @@ export default class Navbar extends Component{
                         <div className="hamburger-menu-icon"></div>
                         <div className="hamburger-menu-icon"></div>
                     </div>
-                    <ul id="left-nav">
+                    <ul id="left-nav" className="hide-on-mobile">
                         <li>Men</li>
                         <li>Women</li>
                     </ul>
@@ -25,7 +25,7 @@ export default class Navbar extends Component{
                         <li>
                             <img src={profilePic} />
                         </li>
-                        <li>
+                        <li className="hide-on-mobile">
                             About
                         </li>
                     </ul>

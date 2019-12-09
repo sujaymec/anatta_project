@@ -7,7 +7,7 @@ export default class Footer extends Component{
     render(){
         return(
             <div id="footer">
-                <div className="container-m50 display-flex" style={{justifyContent:"end"}}>
+                <div className="container-m50 display-flex" id="footer-inner" style={{justifyContent:"end"}}>
                     <ul className="footer-list-block">
                         <li className="list-header">Men</li>
                         <li className="">OCA Low</li>
