@@ -26,16 +26,16 @@
 /* colors */
 
 .color.white{background-color: white}
-.color.navy{background-color: navy}
+.color.navy{background-color: #072348}
 .color.black{background-color: black}
-.color.red{background-color: red}
-.color.yellow{background-color: yellow}
-.color.darkgrey{background-color: darkgrey}
-.color.green{background-color: green}
-.color.pink{background-color: pink}
-.color.skyblue{background-color: skyblue}
-.color.brown{background-color: brown}
-.color.brown{background-color: brown}
+.color.red{background-color: #b5222e}
+.color.yellow{background-color: #ffcf60}
+.color.darkgrey{background-color: #4e4e4e}
+.color.green{background-color: #129f7d}
+.color.pink{background-color: #c69f97}
+.color.skyblue{background-color: #215297}
+.color.brown{background-color: #b3926e}
+/* .color.dual::before{content: "";display:block; height:25px; width: 25px; background-color:orange; position: absolute;} */
 
 #top-black-banner{text-align: center; color:white;background:#000;font-size: 12px;line-height: 38px;}
 #navbar{
@@ -55,6 +55,7 @@ div#logo{
   height: 50px;
   width: 80px;
   background:url('./Assets/images/logo.png') no-repeat;
+  background:url('https://purepng.com/public/uploads/large/purepng.com-disney-logologobrand-logoiconslogos-251519939495wtv86.png') no-repeat;
   background-size: contain;
   margin-top:20px;
 }
@@ -83,6 +84,7 @@ span.color{
   border:1px solid #c8c8c8;
   margin: 5px;
   cursor: pointer;
+  position: relative;
 }
 
 /* Size box */
@@ -116,8 +118,12 @@ span.size-box.active{
 
 /* Recommended Section */
 
-#recommended-section{background:#ccc;}
-
+#recommended-section{background:#fbfbfb;padding: 50px 0;margin-top:25px;}
+#recommended-section h1{font-size: 24px;font-weight: 400;line-height: 32px;}
+.slide-div{display:flex !important; justify-content: space-between;}
+.slide-div-content{width:24%;}
+.slide-div-content img{width: 100%;margin-bottom: 10px;}
+.recommended-name{font-size:20px}
 
 /* Features Strip */
 

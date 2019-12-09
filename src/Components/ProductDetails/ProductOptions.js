@@ -31,10 +31,10 @@ export default function ProductOptions(){
                         <span className="color yellow"></span>
                         <span className="color darkgrey"></span>
                         <span className="color green"></span>
+                        <span className="color dual"></span>
                         <span className="color pink"></span>
                         <span className="color skyblue"></span>
                         <span className="color brown"></span>
-                        <span className="color"></span>
                     </div>
                 </div>
 
