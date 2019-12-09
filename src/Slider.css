@@ -710,3 +710,14 @@ input.app-interval-input {
 	.image-gallery-left-nav, .image-gallery-right-nav{bottom:auto; top:50%}
 	.image-gallery-thumbnail .image-gallery-thumbnail-inner{max-height: 45px;}
 }
+
+@media (max-width : 500px){
+	#features-strip span{
+	display: block;
+    line-height: 60px;
+    text-align: center;
+    width: 50%;
+    font-size: 9px;
+    position: relative;
+	}
+}
